@@ -1,3 +1,132 @@
-body{
+:root {
+    --text-color: #212121;
+    --link-color: #757575;
+    --font-family: Roboto, sans-serif;
+    --font-family-logo:Raleway, sans-serif;
+
+}
+
+
+/* Header section */
+
+.logo-web{
+    color: #2196F3;
+    font-family: var(--font-family-logo);
+    font-weight: 700;
+    font-size: 26px;
     
 }
+.logo-studio{
+    color: #000000;
+    font-family: var(--font-family-logo);
+    font-weight: 700;
+    font-size: 26px;
+    
+}
+
+
+header a:hover{
+    color: #2196F3;
+}
+header a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+nav a{
+     color: var(--text-color);
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+}
+nav a:hover{
+    color: #2196F3;
+}
+
+
+
+/* Main section */
+body{
+    font-family: Roboto, sans-serif;
+    
+}
+
+.button-filter ul li button{
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.button-filter ul li button:active{
+    color: #FFFFFF;
+}
+.button-filter ul li button:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+ul{
+    list-style-type: none
+}
+
+
+
+
+
+.poster-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.poster-description{
+    color: var(--link-color);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* TODO: LINE HEIGHT //// HOVER */
+
+/* Footer section */
+footer{
+    background-color: #2F303A;
+    color: #FFFFFF;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    width: 1600px;
+    height: 251px;
+}
+footer a:hover{
+    color: #2196F3;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff60;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+
+.logo-studio-footer{
+    color: #FFFFFF;
+     font-family: var(--font-family-logo);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+footer address p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+}
+    
+
+
+
+
